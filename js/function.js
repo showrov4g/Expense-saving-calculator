@@ -9,10 +9,13 @@ function showSection(id){
     // return show;
     return parseFloat(document.getElementById(id).classList.remove('hidden'));
 }
-
 function hideSection(id){
-    let hide = document.getElementById(id).classList.add('hidden');
-    return hide;
+    // let hide = document.getElementById(id).classList.add('hidden');
+    // return hide;
+    return parseFloat(document.getElementById(id).classList.add('hidden'))
 }
 
+function summary(id){
+    return document.getElementById(id)
+}
 
