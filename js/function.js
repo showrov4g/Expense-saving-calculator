@@ -15,7 +15,7 @@ function hideSection(id){
     return parseFloat(document.getElementById(id).classList.add('hidden'))
 }
 
-function summary(id){
-    return document.getElementById(id)
+function markSection(id){
+    return document.getElementById(id);
 }
 
