@@ -8,8 +8,19 @@ document
   document.getElementById('calculate').addEventListener('click',function(event){
     event.preventDefault();
     let income = inputFieldWithId('income');
-    console.log(income);
+    let software = inputFieldWithId('software');
+    let course = inputFieldWithId('courses');
+    let internet = inputFieldWithId('internet')
+
+    // section show     
+    showSection('results');
+
+
   })
 
 
-//   calculate
+
+
+//   show hide section 
+
+
